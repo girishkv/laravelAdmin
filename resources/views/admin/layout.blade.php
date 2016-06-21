@@ -67,12 +67,22 @@
         </nav>
       </header>
 
+
+      @if (!Auth::guest())
       @include('admin/inc/main_sidebar')
+      @endif
+
 
 
 
       <!-- Right side column. Contains the navbar and content of the page -->
-      <div class="content-wrapper" style="min-height: 918px;margin-left: 230px;">
+      @if (!Auth::guest())
+        <div class="content-wrapper" style="min-height: 918px;margin-left: 230px;">
+
+      @else
+            <div class="content-wrapper" >
+
+      @endif
         <!-- Content Header (Page header) -->
         @yield('content-header')
 

@@ -42,18 +42,18 @@ class PublicController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function page($slug)
-	{
-		// get the corresponding page for that slug
-		$page = Page::findBySlugOrId($slug)->withFakes();
+//	public function page($slug)
+//	{
+//		// get the corresponding page for that slug
+//		$page = Page::findBySlugOrId($slug)->withFakes();
+////
+////		 if there is such a page
+//		if ($page && $page->translation_lang == \App::getLocale()) {
+////			 load the proper template
+//			return view('page_templates.'.$page->template, ['page' => 'show']);
+//		}
 //
-//		 if there is such a page
-		if ($page && $page->translation_lang == \App::getLocale()) {
-//			 load the proper template
-			return view('page_templates.'.$page->template, ['page' => 'show']);
-		}
-
-		abort(404);
-	}
+//		abort(404);
+//	}
 
 }

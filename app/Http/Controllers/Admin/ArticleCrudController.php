@@ -199,4 +199,6 @@ class ArticleCrudController extends CrudController {
 		return view('admin.show', $this->data);
 	}
 
+
+
 }
