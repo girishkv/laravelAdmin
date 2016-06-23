@@ -1,11 +1,13 @@
 <?php namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use App\Role;
 use Validator;
 use App\User;
 use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 use Config;
+use DB;
 
 class AuthController extends Controller {
 
@@ -51,18 +53,28 @@ class AuthController extends Controller {
 	 * @param  array  $data
 	 * @return User
 	 */
-	public function create(array $data)
+			public function create(array $data)
 	{
-		if (!Config::get('auth.registration_open'))
-		{
-			abort(403, trans('auth.registration_closed'));
-		}
+//		if (!Config::get('auth.registration_open'))
+//		{
+//			abort(403, trans('auth.registration_closed'));
+//		}
+				$user=User::create([
+					'name' 		=> $data['name'],
+					'email' 	=> $data['email'],
+					'password' 	=> $data['password'],
+				]);
+				$insertedId = $user->id;
 
-		return User::create([
-			'name' 		=> $data['name'],
-			'email' 	=> $data['email'],
-			'password' 	=> $data['password'],
-		]);
+				DB::table('role_user')->insert(
+					array('role_id' => 3, 'user_id' => $insertedId)
+				);
+
+		return $user;
+
+
+
+
 	}
 
 	/**
@@ -72,10 +84,10 @@ class AuthController extends Controller {
      */
     public function getRegister()
     {
-    	if (!Config::get('auth.registration_open'))
-		{
-			abort(403, trans('auth.registration_closed'));
-		}
+//    	if (!Config::get('auth.registration_open'))
+//		{
+//			abort(403, trans('auth.registration_closed'));
+//		}
 
         return view('auth.register');
     }

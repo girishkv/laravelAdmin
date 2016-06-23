@@ -1,4 +1,4 @@
-<?php namespace Dick\Settings\database\seeds;
+<?php namespace Dsadmin\Settings\database\seeds;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;

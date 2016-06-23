@@ -29,7 +29,7 @@ class RouteServiceProvider extends ServiceProvider {
 		// falls back to the configuration in laravellocalization.supportedLocales
 		if (count(DB::select("SHOW TABLES LIKE 'languages'")))
         {
-			Config::set('laravellocalization.supportedLocales', \Dick\TranslationManager\Models\Language::getActiveLanguagesArray());
+			Config::set('laravellocalization.supportedLocales', \Dsadmin\TranslationManager\Models\Language::getActiveLanguagesArray());
 		}
 
 		parent::boot($router);

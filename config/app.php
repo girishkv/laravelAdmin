@@ -147,7 +147,7 @@ return [
 		'App\Providers\FileManagerServiceProvider',
 
 		/*
-		 * Dick Service Providers...
+		 * Dsadmin Service Providers...
 		 */
 		'Illuminate\Html\HtmlServiceProvider',
 		'Prologue\Alerts\AlertsServiceProvider',
@@ -157,14 +157,14 @@ return [
 		Mcamara\LaravelLocalization\LaravelLocalizationServiceProvider::class,
 
 		/*
-		 * Custom Dick Service Providers...
+		 * Custom Dsadmin Service Providers...
 		 */
-		'Dick\LogManager\LogManagerServiceProvider',
-		'Dick\BackupManager\BackupManagerServiceProvider',
-		'Dick\CRUD\CrudServiceProvider',
-		'Dick\Settings\SettingsServiceProvider',
-		'Dick\TranslationManager\TranslationManagerServiceProvider',
-		'Dick\MenuManager\MenuManagerServiceProvider',
+		'Dsadmin\LogManager\LogManagerServiceProvider',
+		'Dsadmin\BackupManager\BackupManagerServiceProvider',
+		'Dsadmin\CRUD\CrudServiceProvider',
+		'Dsadmin\Settings\SettingsServiceProvider',
+		'Dsadmin\TranslationManager\TranslationManagerServiceProvider',
+		'Dsadmin\MenuManager\MenuManagerServiceProvider',
 
 		/*
 		 * Package Building Service Providers...
@@ -220,14 +220,14 @@ return [
 		'View'      => 'Illuminate\Support\Facades\View',
 
 		/*
-		 * Dick Aliases...
+		 * Dsadmin Aliases...
 		 */
 		'Form'=> 'Illuminate\Html\FormFacade',
 		'HTML'=> 'Illuminate\Html\HtmlFacade',
 		'Alert' => 'Prologue\Alerts\Facades\Alert',
 		'Carbon' => 'Carbon\Carbon',
 		'Entrust' => 'Zizaco\Entrust\EntrustFacade',
-		'CRUD' => 'Dick\CRUD\CrudServiceProvider',
+		'CRUD' => 'Dsadmin\CRUD\CrudServiceProvider',
 
 		/*
 		 * Other Aliases...

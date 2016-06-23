@@ -2,7 +2,7 @@
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use Dick\CRUD\Http\Controllers\CrudController;
+use Dsadmin\CRUD\Http\Controllers\CrudController;
 use Illuminate\Http\Request;
 
 // VALIDATION: change the requests to match your own file names if you need form validation
@@ -116,8 +116,8 @@ class PageCrudController extends CrudController {
 
     private function getTemplates()
     {
-        // get the files from config/dick/page_templates
-        $template_files = \Storage::disk('config')->files('dick/page_templates');
+        // get the files from config/dsadmin/page_templates
+        $template_files = \Storage::disk('config')->files('dsadmin/page_templates');
 
         if (!count($template_files))
         {
@@ -130,7 +130,7 @@ class PageCrudController extends CrudController {
             // get the file name
             $file_name = str_replace('.php', '', last(explode('/', $template_file)));
             // get the pretty template name
-            $templates[$file_name] = config('dick.page_templates.'.$file_name.'.template_name');
+            $templates[$file_name] = config('dsadmin.page_templates.'.$file_name.'.template_name');
         }
 
         return $templates;
@@ -142,7 +142,7 @@ class PageCrudController extends CrudController {
         }
 
         // merge the fields defined above and the ones set in the template file
-        $this->crud['fields'] = array_merge($this->crud['fields'], config('dick.page_templates.'.$file_name.'.fields'));
+        $this->crud['fields'] = array_merge($this->crud['fields'], config('dsadmin.page_templates.'.$file_name.'.fields'));
 
         // set the possible options for the "templates" field and select the default value
         foreach ($this->crud['fields'] as $key => $field) {

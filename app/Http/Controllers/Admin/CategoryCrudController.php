@@ -2,13 +2,13 @@
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use Dick\CRUD\Http\Controllers\CrudController;
+use Dsadmin\CRUD\Http\Controllers\CrudController;
 
 use Illuminate\Http\Request;
 
 // VALIDATION: change the requests to match your own file names if you need form validation
-use Dick\CRUD\Http\Requests\CrudRequest as StoreRequest;
-use Dick\CRUD\Http\Requests\CrudRequest as UpdateRequest;
+use Dsadmin\CRUD\Http\Requests\CrudRequest as StoreRequest;
+use Dsadmin\CRUD\Http\Requests\CrudRequest as UpdateRequest;
 
 class CategoryCrudController extends CrudController {
 

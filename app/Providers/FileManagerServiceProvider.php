@@ -7,7 +7,7 @@ use Barryvdh\Elfinder\ElfinderServiceProvider as ElfinderServiceProvider;
 /**
  * Service Provider that overwrites ElfinderServiceProvider.
  * Its main purpose is to define the routes inside at register() time, instead of boot(),
- * because otherwise the Dick/PageManager catch-all route will be run before it.
+ * because otherwise the Dsadmin/PageManager catch-all route will be run before it.
  */
 class FileManagerServiceProvider extends ElfinderServiceProvider {
 

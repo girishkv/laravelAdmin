@@ -2,7 +2,7 @@
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use Dick\CRUD\Http\Controllers\CrudController;
+use Dsadmin\CRUD\Http\Controllers\CrudController;
 use Illuminate\Http\Request;
 
 // VALIDATION: change the requests to match your own file names if you need form validation
@@ -24,6 +24,14 @@ class UserCrudController extends CrudController {
 						// Define the columns for the table view as an array:
 						//
 						"columns" => [
+											[
+												'name' => 'id',
+												'label' => "Id"
+											],
+											[
+												'name' => 'created_at',
+												'label' => "Created "
+											],
 											[
 												'name' => 'name',
 												'label' => "Name surname"

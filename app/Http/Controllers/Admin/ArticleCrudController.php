@@ -3,13 +3,13 @@
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Models\Article;
-use Dick\CRUD\Http\Controllers\CrudController;
+use Dsadmin\CRUD\Http\Controllers\CrudController;
 
 use Illuminate\Http\Request;
 
 // VALIDATION: change the requests to match your own file names if you need form validation
-use Dick\CRUD\Http\Requests\CrudRequest as StoreRequest;
-use Dick\CRUD\Http\Requests\CrudRequest as UpdateRequest;
+use Dsadmin\CRUD\Http\Requests\CrudRequest as StoreRequest;
+use Dsadmin\CRUD\Http\Requests\CrudRequest as UpdateRequest;
 
 class ArticleCrudController extends CrudController {
 
@@ -32,7 +32,7 @@ class ArticleCrudController extends CrudController {
 						"columns" => [
 											[
 												'name' => 'id',
-												'label' => "ID"
+												'label' => "Id"
 											],[
 												'name' => 'status',
 												'label' => "Status"
@@ -190,6 +190,7 @@ class ArticleCrudController extends CrudController {
 	{
 //		$this->data[]
 		$this->data['entries'] = Article::get();
+
 		return view('admin.list', $this->data);
 
 	}

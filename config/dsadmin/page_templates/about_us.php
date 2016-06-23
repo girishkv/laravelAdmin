@@ -4,7 +4,7 @@ return [
 
 	/*
 	|--------------------------------------------------------------------------
-	| Dick\PageManager template
+	| Dsadmin\PageManager template
 	|--------------------------------------------------------------------------
 	|
 	| All of these variables will be passed in the Controller to the $crud variable.

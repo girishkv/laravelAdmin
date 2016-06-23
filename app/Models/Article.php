@@ -1,7 +1,7 @@
 <?php namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Dick\CRUD\CrudTrait;
+use Dsadmin\CRUD\CrudTrait;
 
 class Article extends Model {
 

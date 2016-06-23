@@ -1,7 +1,7 @@
 <?php namespace App;
 
 use Zizaco\Entrust\EntrustRole;
-use Dick\CRUD\CrudTrait;
+use Dsadmin\CRUD\CrudTrait;
 
 class Role extends EntrustRole
 {

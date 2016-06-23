@@ -4,7 +4,7 @@ return [
 
 	/*
 	|--------------------------------------------------------------------------
-	| Dick\PageManager template
+	| Dsadmin\PageManager template
 	|--------------------------------------------------------------------------
 	|
 	| All of these variables will be passed in the Controller to the $crud variable.
@@ -13,7 +13,7 @@ return [
 	|
 	*/
 
-	'template_name' => 'Simple page',
+	'template_name' => 'Contact',
 
 	// -------------------------------------------------------------------------
 
@@ -53,7 +53,28 @@ return [
                         'label' => 'Content',
                         'type' => 'wysiwyg',
                         'placeholder' => 'Your content here'
-                    ]
+                    ],
+                    [
+                        'name' => 'address',
+                        'label' => "Address",
+                        'type' => 'text',
+                        'fake' => true,
+                        'store_in' => 'extras'
+                    ],
+                    [
+                        'name' => 'email',
+                        'label' => "Email address",
+                        'type' => 'email',
+                        'fake' => true,
+                        'store_in' => 'extras'
+                    ],
+                    [
+                        'name' => 'phone',
+                        'label' => "Phone number",
+                        'type' => 'text',
+                        'fake' => true,
+                        'store_in' => 'extras'
+                    ],
 
                 ],
 

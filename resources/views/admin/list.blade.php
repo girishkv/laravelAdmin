@@ -34,6 +34,9 @@
 		</div>
 		<div class="box-body">
 
+			{{ dump($this->data[]) }}
+
+
 			<table id="crudTable" class="table table-bordered table-striped display">
 				<thead>
 				<tr>

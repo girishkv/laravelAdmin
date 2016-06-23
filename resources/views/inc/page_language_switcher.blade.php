@@ -1,7 +1,7 @@
 <ul class="nav nav-pills">
     @foreach($page->allTranslations() as $key => $translation)
     	<?php
-    		$lang = \Dick\TranslationManager\Models\Language::findByAbbr($translation->translation_lang);
+    		$lang = \Dsadmin\TranslationManager\Models\Language::findByAbbr($translation->translation_lang);
     	 ?>
         <li role="presentation"
 			@if(App::getLocale() == $lang->abbr)

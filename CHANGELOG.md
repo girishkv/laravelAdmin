@@ -1,6 +1,6 @@
 # Changelog
 
-All Notable changes to `Dick` will be documented in this file
+All Notable changes to `Dsadmin` will be documented in this file
 
 ## NEXT - YYYY-MM-DD
 
@@ -49,7 +49,7 @@ All Notable changes to `Dick` will be documented in this file
 ## [0.7.0] - 2015-09-10
 
 ### Fixed
-- polished routes and seeders for no errors on dick installation;
+- polished routes and seeders for no errors on dsadmin installation;
 - tested and working installation process;
 - bumped version;
 
@@ -72,7 +72,7 @@ All Notable changes to `Dick` will be documented in this file
 
 ### Added
 - Page entity is now multi-language, to show how that works. Added migration for the extra columns needed for multi-language.
-- CRUD alias: 'CRUD' => 'Dick\CRUD\CrudServiceProvider'
+- CRUD alias: 'CRUD' => 'Dsadmin\CRUD\CrudServiceProvider'
 - CRUD resource routes can now be defined with CRUD::resource() instead of Route::resource() and a bunch of other routes if reorder/translation was needed.
 - Small CSS additions for the CRUD multi-language scenario.
 
@@ -84,7 +84,7 @@ All Notable changes to `Dick` will be documented in this file
 ## [0.6.3] - 2015-09-08
 
 ### Added
-- Dick\MenuManager package, an interface to add/edit/delete/reorder/nest menu items;
+- Dsadmin\MenuManager package, an interface to add/edit/delete/reorder/nest menu items;
 
 ## [0.6.2] - 2015-09-08
 
@@ -93,4 +93,4 @@ All Notable changes to `Dick` will be documented in this file
 - CHANGELOG.md file, to keep track of changes and versioning;
 
 ### Removed
-- DebugBar dependency on Dick; If required, every developer will pull it in his project;
+- DebugBar dependency on Dsadmin; If required, every developer will pull it in his project;

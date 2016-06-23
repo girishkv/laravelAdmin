@@ -5,7 +5,7 @@ return [
 	// PROJECT NAME
 	//
 	// Used in the menu & other places.
-	// With this changed, there will be no trace of the word "Dick" in the admin interface.
+	// With this changed, there will be no trace of the word "Dsadmin" in the admin interface.
 	'project_name' => 'DesignString ',
 
 

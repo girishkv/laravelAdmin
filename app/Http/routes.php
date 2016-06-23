@@ -15,6 +15,7 @@ Route::resource('article', 'ArticleController');
 
 Route::get('/', 'ArticleController@index');
 Route::get('home', 'Auth\UserController@index');
+Route::get('signup', 'Auth\AuthController@getRegister');
 
 
 //Route::get('/', [
@@ -32,7 +33,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth', 'namespace' => 'Admin
 {
 	Route::get('', 'AdminController@index');
 
-	// Dick CRUD: Define the resources for the entities you want to CRUD.
+	// Dsadmin CRUD: Define the resources for the entities you want to CRUD.
 	CRUD::resource('article', 'ArticleCrudController');
 	CRUD::resource('category', 'CategoryCrudController');
 	CRUD::resource('tag', 'TagCrudController');
@@ -41,7 +42,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth', 'namespace' => 'Admin
 	CRUD::resource('permission', 'PermissionCrudController');
 	CRUD::resource('page', 'PageCrudController');
 
-	// Dick Page Manager admin routes
+	// Dsadmin Page Manager admin routes
 	Route::get('page/create/{template}', 'PageCrudController@create');
 	Route::get('page/{id}/edit/{template}', 'PageCrudController@edit');
 });
@@ -74,3 +75,5 @@ function()
     /** ADD ALL LOCALIZED ROUTES INSIDE THIS GROUP **/
     Route::get('{slug}', ['uses' => 'PublicController@page'])->where('slug', '([A-z\d-\/_.]+)?');
 });
+
+

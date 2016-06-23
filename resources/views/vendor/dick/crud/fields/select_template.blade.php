@@ -1,4 +1,4 @@
-<!-- Select template field. Used in Dick/PageManager to redirect to a form with different fields if the template changes. A fork of the select_from_array field with an extra ID and an extra javascript file. -->
+<!-- Select template field. Used in Dsadmin/PageManager to redirect to a form with different fields if the template changes. A fork of the select_from_array field with an extra ID and an extra javascript file. -->
   <div class="form-group">
     <label>{{ $field['label'] }}</label>
     <select

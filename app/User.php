@@ -6,7 +6,7 @@ use Illuminate\Auth\Passwords\CanResetPassword;
 use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
 use Illuminate\Contracts\Auth\CanResetPassword as CanResetPasswordContract;
 use Zizaco\Entrust\Traits\EntrustUserTrait;
-use Dick\CRUD\CrudTrait;
+use Dsadmin\CRUD\CrudTrait;
 
 class User extends Model implements AuthenticatableContract, CanResetPasswordContract {
 
@@ -38,6 +38,7 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
     {
         return $this->belongsToMany(\Config::get('entrust.role'), 'role_user');
     }
+
 
     public function setPasswordAttribute($value)
     {

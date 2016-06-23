@@ -6,7 +6,7 @@
 # http://code.google.com/p/sequel-pro/
 #
 # Host: localhost (MySQL 5.5.34)
-# Database: dick
+# Database: dsadmin
 # Generation Time: 2015-06-19 15:09:04 +0000
 # ************************************************************
 

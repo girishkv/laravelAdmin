@@ -2,7 +2,7 @@
 
 use App\Http\Requests\Request;
 
-class StoreTagRequest extends \Dick\CRUD\Http\Requests\CrudRequest {
+class StoreTagRequest extends \Dsadmin\CRUD\Http\Requests\CrudRequest {
 
 	/**
 	 * Determine if the user is authorized to make this request.

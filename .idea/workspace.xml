@@ -1,14 +1,374 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a07b3e3-07de-4b69-abfd-297a84904852" name="Default" comment="">
+    <list default="true" id="f3887faf-fcc4-4729-af39-4dc75a414d14" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dick.iml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/config/dick/backupmanager.php" afterPath="$PROJECT_DIR$/config/dsadmin/backupmanager.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/config/dick/page_templates/about_us.php" afterPath="$PROJECT_DIR$/config/dsadmin/page_templates/about_us.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/config/dick/page_templates/contact.php" afterPath="$PROJECT_DIR$/config/dsadmin/page_templates/contact.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/config/dick/page_templates/home_page.php" afterPath="$PROJECT_DIR$/config/dsadmin/page_templates/home_page.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/config/dick/page_templates/services.php" afterPath="$PROJECT_DIR$/config/dsadmin/page_templates/services.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/config/dick/page_templates/simple_page.php" afterPath="$PROJECT_DIR$/config/dsadmin/page_templates/simple_page.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/main.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/README.md" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/bower.json" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/colorbox.ai" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/colorbox.ai" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/content/ajax.html" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/content/ajax.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/content/daisy.jpg" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/content/daisy.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/content/daisy@2x.jpg" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/content/daisy@2x.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/content/homer.jpg" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/content/homer.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/content/marylou.jpg" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/content/marylou.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/content/ohoopee1.jpg" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/content/ohoopee1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/content/ohoopee2.jpg" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/content/ohoopee2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/content/ohoopee3.jpg" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/content/ohoopee3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/example1/colorbox.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/example1/colorbox.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/example1/images/border.png" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/example1/images/border.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/example1/images/controls.png" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/example1/images/controls.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/example1/images/loading.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/example1/images/loading.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/example1/images/loading_background.png" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/example1/images/loading_background.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/example1/images/overlay.png" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/example1/images/overlay.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/example1/index.html" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/example1/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/example2/colorbox.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/example2/colorbox.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/example2/images/controls.png" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/example2/images/controls.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/example2/images/loading.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/example2/images/loading.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/example2/index.html" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/example2/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/example3/colorbox.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/example3/colorbox.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/example3/images/controls.png" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/example3/images/controls.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/example3/images/loading.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/example3/images/loading.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/example3/index.html" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/example3/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/example4/colorbox.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/example4/colorbox.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/example4/images/border1.png" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/example4/images/border1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/example4/images/border2.png" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/example4/images/border2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/example4/images/loading.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/example4/images/loading.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/example4/index.html" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/example4/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/example5/colorbox.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/example5/colorbox.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/example5/images/border.png" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/example5/images/border.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/example5/images/controls.png" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/example5/images/controls.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/example5/images/loading.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/example5/images/loading.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/example5/images/loading_background.png" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/example5/images/loading_background.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/example5/index.html" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/example5/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-ar.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-ar.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-bg.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-bg.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-bn.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-bn.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-ca.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-ca.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-cs.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-cs.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-da.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-da.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-de.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-de.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-es.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-es.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-et.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-et.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-fa.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-fa.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-fi.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-fi.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-fr.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-fr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-gl.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-gl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-gr.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-gr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-he.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-he.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-hr.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-hr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-hu.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-hu.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-id.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-id.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-it.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-it.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-ja.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-ja.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-kr.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-kr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-lt.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-lt.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-lv.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-lv.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-my.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-my.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-nl.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-nl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-no.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-no.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-pl.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-pl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-pt-BR.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-pt-BR.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-ro.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-ro.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-ru.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-ru.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-si.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-si.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-sk.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-sk.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-sr.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-sr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-sv.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-sv.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-tr.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-tr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-uk.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-uk.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-zh-CN.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-zh-CN.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/i18n/jquery.colorbox-zh-TW.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/i18n/jquery.colorbox-zh-TW.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/jquery.colorbox-min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/jquery.colorbox-min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/jquery.colorbox.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/jquery.colorbox.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/colorbox/package.json" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/colorbox/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/ladda/ladda-themeless.min.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/ladda/ladda-themeless.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/ladda/ladda.jquery.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/ladda/ladda.jquery.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/ladda/ladda.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/ladda/ladda.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/ladda/ladda.min.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/ladda/ladda.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/ladda/ladda.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/ladda/ladda.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/ladda/spin.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/ladda/spin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/ladda/spin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/ladda/spin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/nestedSortable/README.md" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/nestedSortable/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/nestedSortable/jquery.mjs.nestedSortable1.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/nestedSortable/jquery.mjs.nestedSortable1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/nestedSortable/jquery.mjs.nestedSortable2.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/nestedSortable/jquery.mjs.nestedSortable2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/nestedSortable/jquery.ui.theme.font-awesome.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/nestedSortable/jquery.ui.theme.font-awesome.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/nestedSortable/nestedSortable.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/nestedSortable/nestedSortable.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/pnotify/pnotify.custom.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/pnotify/pnotify.custom.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/pnotify/pnotify.custom.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/pnotify/pnotify.custom.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/.gitignore" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/CONTRIBUTING.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/LICENSE" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/README.md" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/bower.json" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/component.json" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/component.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/composer.json" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/composer.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/package.json" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/release.sh" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/release.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2-bootstrap-dick.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2-bootstrap-dsadmin.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2-bootstrap.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2-bootstrap.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2-spinner.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2-spinner.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2.jquery.json" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2.jquery.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2.png" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_ar.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_ar.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_az.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_az.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_bg.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_bg.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_ca.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_ca.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_cs.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_cs.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_da.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_da.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_de.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_de.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_el.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_el.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_en.js.template" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_en.js.template" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_es.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_es.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_et.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_et.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_eu.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_eu.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_fa.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_fa.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_fi.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_fi.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_fr.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_fr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_gl.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_gl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_he.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_he.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_hr.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_hr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_hu.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_hu.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_id.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_id.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_is.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_is.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_it.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_it.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_ja.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_ja.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_ka.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_ka.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_ko.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_ko.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_lt.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_lt.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_lv.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_lv.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_mk.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_mk.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_ms.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_ms.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_nb.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_nb.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_nl.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_nl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_pl.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_pl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_pt-BR.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_pt-BR.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_pt-PT.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_pt-PT.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_ro.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_ro.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_rs.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_rs.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_ru.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_ru.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_sk.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_sk.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_sv.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_sv.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_th.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_th.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_tr.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_tr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_ug-CN.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_ug-CN.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_uk.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_uk.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_vi.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_vi.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_zh-CN.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_zh-CN.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2_locale_zh-TW.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2_locale_zh-TW.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/select2/select2x2.png" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/select2/select2x2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/summernote/.gitignore" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/summernote/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/summernote/.jshintignore" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/summernote/.jshintignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/summernote/.jshintrc" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/summernote/.jshintrc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/summernote/.travis.yml" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/summernote/.travis.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/summernote/plugin/summernote-ext-fontstyle.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/summernote/plugin/summernote-ext-fontstyle.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/summernote/plugin/summernote-ext-hello.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/summernote/plugin/summernote-ext-hello.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/summernote/plugin/summernote-ext-video.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/summernote/plugin/summernote-ext-video.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/summernote/summernote.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/summernote/summernote.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/summernote/summernote.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/summernote/summernote.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/summernote/summernote.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/summernote/summernote.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/jquery.tinymce.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/jquery.tinymce.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/langs/readme.md" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/langs/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/license.txt" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/license.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/advlist/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/advlist/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/anchor/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/anchor/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/autolink/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/autolink/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/autoresize/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/autoresize/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/autosave/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/autosave/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/bbcode/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/bbcode/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/charmap/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/charmap/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/code/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/code/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/colorpicker/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/colorpicker/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/contextmenu/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/contextmenu/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/directionality/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/directionality/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/emoticons/img/smiley-cool.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/emoticons/img/smiley-cool.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/emoticons/img/smiley-cry.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/emoticons/img/smiley-cry.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/emoticons/img/smiley-embarassed.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/emoticons/img/smiley-embarassed.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/emoticons/img/smiley-frown.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/emoticons/img/smiley-frown.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/emoticons/img/smiley-innocent.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/emoticons/img/smiley-innocent.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/emoticons/img/smiley-kiss.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/emoticons/img/smiley-kiss.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/emoticons/img/smiley-laughing.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/emoticons/img/smiley-laughing.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/emoticons/img/smiley-sealed.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/emoticons/img/smiley-sealed.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/emoticons/img/smiley-smile.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/emoticons/img/smiley-smile.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/emoticons/img/smiley-surprised.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/emoticons/img/smiley-surprised.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/emoticons/img/smiley-undecided.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/emoticons/img/smiley-undecided.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/emoticons/img/smiley-wink.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/emoticons/img/smiley-wink.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/emoticons/img/smiley-yell.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/emoticons/img/smiley-yell.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/emoticons/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/emoticons/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/example/dialog.html" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/example/dialog.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/example/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/example/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/example_dependency/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/example_dependency/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/fullpage/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/fullpage/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/fullscreen/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/fullscreen/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/hr/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/hr/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/image/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/image/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/importcss/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/importcss/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/insertdatetime/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/insertdatetime/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/layer/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/layer/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/legacyoutput/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/legacyoutput/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/link/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/link/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/lists/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/lists/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/media/moxieplayer.swf" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/media/moxieplayer.swf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/media/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/media/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/nonbreaking/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/nonbreaking/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/noneditable/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/noneditable/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/pagebreak/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/pagebreak/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/paste/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/paste/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/preview/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/preview/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/print/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/print/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/save/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/save/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/searchreplace/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/searchreplace/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/spellchecker/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/spellchecker/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/tabfocus/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/tabfocus/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/table/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/table/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/template/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/template/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/textcolor/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/textcolor/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/textpattern/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/textpattern/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/visualblocks/css/visualblocks.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/visualblocks/css/visualblocks.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/visualblocks/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/visualblocks/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/visualchars/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/visualchars/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/plugins/wordcount/plugin.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/plugins/wordcount/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/charcoal/Variables.less" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/charcoal/Variables.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/charcoal/content.inline.min.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/charcoal/content.inline.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/charcoal/content.min.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/charcoal/content.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/charcoal/fonts/readme.md" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/charcoal/fonts/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/charcoal/fonts/tinymce-small.eot" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/charcoal/fonts/tinymce-small.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/charcoal/fonts/tinymce-small.json" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/charcoal/fonts/tinymce-small.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/charcoal/fonts/tinymce-small.svg" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/charcoal/fonts/tinymce-small.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/charcoal/fonts/tinymce-small.ttf" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/charcoal/fonts/tinymce-small.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/charcoal/fonts/tinymce-small.woff" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/charcoal/fonts/tinymce-small.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/charcoal/fonts/tinymce.eot" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/charcoal/fonts/tinymce.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/charcoal/fonts/tinymce.json" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/charcoal/fonts/tinymce.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/charcoal/fonts/tinymce.svg" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/charcoal/fonts/tinymce.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/charcoal/fonts/tinymce.ttf" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/charcoal/fonts/tinymce.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/charcoal/fonts/tinymce.woff" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/charcoal/fonts/tinymce.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/charcoal/img/anchor.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/charcoal/img/anchor.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/charcoal/img/loader.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/charcoal/img/loader.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/charcoal/img/object.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/charcoal/img/object.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/charcoal/img/trans.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/charcoal/img/trans.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/charcoal/img/wline.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/charcoal/img/wline.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/charcoal/skin.ie7.min.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/charcoal/skin.ie7.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/charcoal/skin.json" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/charcoal/skin.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/charcoal/skin.min.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/charcoal/skin.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/dick-light/Variables.less" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/dick-light/Variables.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/dick-light/content.inline.min.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/dick-light/content.inline.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/dick-light/content.min.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/dick-light/content.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/dick-light/fonts/readme.md" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/dick-light/fonts/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/dick-light/fonts/tinymce-small.eot" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/dick-light/fonts/tinymce-small.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/dick-light/fonts/tinymce-small.json" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/dick-light/fonts/tinymce-small.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/dick-light/fonts/tinymce-small.svg" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/dick-light/fonts/tinymce-small.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/dick-light/fonts/tinymce-small.ttf" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/dick-light/fonts/tinymce-small.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/dick-light/fonts/tinymce-small.woff" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/dick-light/fonts/tinymce-small.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/dick-light/fonts/tinymce.eot" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/dick-light/fonts/tinymce.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/dick-light/fonts/tinymce.json" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/dick-light/fonts/tinymce.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/dick-light/fonts/tinymce.svg" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/dick-light/fonts/tinymce.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/dick-light/fonts/tinymce.ttf" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/dick-light/fonts/tinymce.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/dick-light/fonts/tinymce.woff" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/dick-light/fonts/tinymce.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/dick-light/img/anchor.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/dick-light/img/anchor.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/dick-light/img/loader.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/dick-light/img/loader.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/dick-light/img/object.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/dick-light/img/object.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/dick-light/img/trans.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/dick-light/img/trans.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/dick-light/img/wline.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/dick-light/img/wline.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/dick-light/skin.ie7.min.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/dick-light/skin.ie7.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/dick-light/skin.json" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/dick-light/skin.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/dick-light/skin.min.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/dick-light/skin.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/light/content.inline.min.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/light/content.inline.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/light/content.min.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/light/content.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/light/fonts/tinymce-small.eot" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/light/fonts/tinymce-small.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/light/fonts/tinymce-small.json" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/light/fonts/tinymce-small.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/light/fonts/tinymce-small.svg" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/light/fonts/tinymce-small.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/light/fonts/tinymce-small.ttf" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/light/fonts/tinymce-small.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/light/fonts/tinymce-small.woff" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/light/fonts/tinymce-small.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/light/fonts/tinymce.eot" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/light/fonts/tinymce.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/light/fonts/tinymce.json" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/light/fonts/tinymce.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/light/fonts/tinymce.svg" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/light/fonts/tinymce.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/light/fonts/tinymce.ttf" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/light/fonts/tinymce.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/light/fonts/tinymce.woff" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/light/fonts/tinymce.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/light/img/anchor.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/light/img/anchor.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/light/img/loader.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/light/img/loader.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/light/img/object.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/light/img/object.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/light/img/trans.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/light/img/trans.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/light/skin.ie7.min.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/light/skin.ie7.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/light/skin.min.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/light/skin.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/lightgray/content.inline.min.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/lightgray/content.inline.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/lightgray/content.min.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/lightgray/content.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/lightgray/fonts/tinymce-small.eot" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/lightgray/fonts/tinymce-small.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/lightgray/fonts/tinymce-small.svg" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/lightgray/fonts/tinymce-small.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/lightgray/fonts/tinymce-small.ttf" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/lightgray/fonts/tinymce-small.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/lightgray/fonts/tinymce-small.woff" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/lightgray/fonts/tinymce-small.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/lightgray/fonts/tinymce.eot" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/lightgray/fonts/tinymce.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/lightgray/fonts/tinymce.svg" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/lightgray/fonts/tinymce.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/lightgray/fonts/tinymce.ttf" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/lightgray/fonts/tinymce.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/lightgray/fonts/tinymce.woff" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/lightgray/fonts/tinymce.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/lightgray/img/anchor.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/lightgray/img/anchor.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/lightgray/img/loader.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/lightgray/img/loader.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/lightgray/img/object.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/lightgray/img/object.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/lightgray/img/trans.gif" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/lightgray/img/trans.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/lightgray/skin.ie7.min.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/lightgray/skin.ie7.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/skins/lightgray/skin.min.css" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/skins/lightgray/skin.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/themes/modern/theme.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/themes/modern/theme.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/js/vendor/tinymce/tinymce.min.js" afterPath="$PROJECT_DIR$/public/dsadmin/js/vendor/tinymce/tinymce.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/dick/main.css" afterPath="$PROJECT_DIR$/public/dsadmin/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.env.example" afterPath="$PROJECT_DIR$/.env.example" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGELOG.md" afterPath="$PROJECT_DIR$/CHANGELOG.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ArticleCrudController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ArticleCrudController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ArticleController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ArticleController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PublicController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PublicController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryCrudController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryCrudController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/PageCrudController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/PageCrudController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/PermissionCrudController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/PermissionCrudController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/RoleCrudController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/RoleCrudController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/TagCrudController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/TagCrudController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/UserCrudController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/UserCrudController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Requests/PageRequest.php" afterPath="$PROJECT_DIR$/app/Http/Requests/PageRequest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Requests/RoleRequest.php" afterPath="$PROJECT_DIR$/app/Http/Requests/RoleRequest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Requests/StoreTagRequest.php" afterPath="$PROJECT_DIR$/app/Http/Requests/StoreTagRequest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Requests/UpdateTagRequest.php" afterPath="$PROJECT_DIR$/app/Http/Requests/UpdateTagRequest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Requests/UserCreateRequest.php" afterPath="$PROJECT_DIR$/app/Http/Requests/UserCreateRequest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Requests/UserUpdateRequest.php" afterPath="$PROJECT_DIR$/app/Http/Requests/UserUpdateRequest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Article.php" afterPath="$PROJECT_DIR$/app/Models/Article.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Category.php" afterPath="$PROJECT_DIR$/app/Models/Category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Page.php" afterPath="$PROJECT_DIR$/app/Models/Page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Tag.php" afterPath="$PROJECT_DIR$/app/Models/Tag.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Permission.php" afterPath="$PROJECT_DIR$/app/Permission.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/FileManagerServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/FileManagerServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Role.php" afterPath="$PROJECT_DIR$/app/Role.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Services/Registrar.php" afterPath="$PROJECT_DIR$/app/Services/Registrar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/admin.php" afterPath="$PROJECT_DIR$/config/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/SettingsTableSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/SettingsTableSeeder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/sql/dick 2015-05-04 15-49 .sql" afterPath="$PROJECT_DIR$/database/sql/dick 2015-05-04 15-49 .sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/sql/dick 2015-05-14 13-13 .sql" afterPath="$PROJECT_DIR$/database/sql/dick 2015-05-14 13-13 .sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/sql/dick 2015-05-18 19-29 .sql" afterPath="$PROJECT_DIR$/database/sql/dick 2015-05-18 19-29 .sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/sql/dick 2015-06-04 09-51 .sql" afterPath="$PROJECT_DIR$/database/sql/dick 2015-06-04 09-51 .sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/sql/dick 2015-06-19 18-09 .sql" afterPath="$PROJECT_DIR$/database/sql/dick 2015-06-19 18-09 .sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/lang/en/crud.php" afterPath="$PROJECT_DIR$/resources/lang/en/crud.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/lang/ro/crud.php" afterPath="$PROJECT_DIR$/resources/lang/ro/crud.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/layout.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/layout.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/list.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/list.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/inc/page_language_switcher.blade.php" afterPath="$PROJECT_DIR$/resources/views/inc/page_language_switcher.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/vendor/dick/crud/fields/select_template.blade.php" afterPath="$PROJECT_DIR$/resources/views/vendor/dick/crud/fields/select_template.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" />
     </list>
-    <ignored path="dick.iws" />
+    <ignored path="ds_admin_panel.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,106 +384,76 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="dick" />
+    <favorites_list name="ds_admin_panel" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArticleCrudController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ArticleCrudController.php">
+      <file leaf-file-name="UserCrudController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/UserCrudController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.37037">
-              <caret line="193" column="0" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6443914">
+              <caret line="129" column="59" selection-start-line="129" selection-start-column="59" selection-end-line="129" selection-end-column="59" />
+              <folding>
+                <element signature="e#45#67#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.3392856">
+              <caret line="38" column="76" selection-start-line="38" selection-start-column="67" selection-end-line="38" selection-end-column="76" />
+              <folding>
+                <element signature="e#22#58#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/UserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="55.407406">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <folding>
+                <element signature="e#44#72#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArticleController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ArticleController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.3333333">
+              <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+              <folding>
+                <element signature="e#40#68#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Role.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Role.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.0">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/list.blade.php">
+      <file leaf-file-name="AuthController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.785714">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.ctp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../girish/ftow/app/View/Pages/home.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.666667">
-              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.ctp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../girish/ftow/app/View/Layouts/default.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.0">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/dashboard.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2170088">
-              <caret line="44" column="8" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.333334">
-              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form_content.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/dick/crud/src/resources/views/form_content.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="text.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/dick/crud/src/resources/views/fields/text.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.6666665">
-              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PublicController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PublicController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.037037">
-              <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/layout.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.071429">
-              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="-3.857143">
+              <caret line="64" column="53" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+              <folding>
+                <element signature="e#44#80#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,38 +466,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.env.example" />
-        <option value="$PROJECT_DIR$/config/database.php" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/config/mail.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/UserCrudController.php" />
-        <option value="$PROJECT_DIR$/app/Models/Category.php" />
-        <option value="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/PageCrudController.php" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/CHANGELOG.md" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/UserController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
-        <option value="$PROJECT_DIR$/vendor/dick/crud/src/Http/Controllers/CrudController.php" />
-        <option value="$PROJECT_DIR$/resources/views/list.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/show.blade.php" />
-        <option value="$PROJECT_DIR$/vendor/dick/crud/src/resources/views/list.blade.php" />
-        <option value="$PROJECT_DIR$/config/admin.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/resources/views/admin/inc/main_sidebar.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/article.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/dashboard.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/index2.blade.php" />
-        <option value="$PROJECT_DIR$/config/elfinder.php" />
-        <option value="$PROJECT_DIR$/config/filesystems.php" />
+        <option value="$PROJECT_DIR$/app/Services/Registrar.php" />
+        <option value="$PROJECT_DIR$/vendor/dsadmin/crud/src/Http/Controllers/CrudController.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ArticleController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/StoreArticleRequest.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ArticleCrudController.php" />
-        <option value="$PROJECT_DIR$/vendor/dick/crud/src/resources/views/edit.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PublicController.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/layout.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/list.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/UserCrudController.php" />
       </list>
     </option>
   </component>
@@ -180,9 +488,6 @@
         <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
       </GulpfileState>
     </gulpfiles>
-  </component>
-  <component name="PhpServers">
-    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -217,18 +522,17 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dick" />
+              <option name="myItemId" value="ds_admin_panel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dick" />
+              <option name="myItemId" value="ds_admin_panel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -238,7 +542,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dick" />
+              <option name="myItemId" value="ds_admin_panel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -246,39 +550,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ds_admin_panel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dick" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -292,7 +570,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dick" />
+              <option name="myItemId" value="ds_admin_panel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -306,7 +584,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dick" />
+              <option name="myItemId" value="ds_admin_panel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -324,7 +602,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dick" />
+              <option name="myItemId" value="ds_admin_panel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -346,7 +624,33 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dick" />
+              <option name="myItemId" value="ds_admin_panel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ds_admin_panel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ds_admin_panel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -372,36 +676,21 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.lastSelected" value="configurable.group.tools" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../girish/ftow/app/View/Layouts/default.ctp" />
-    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="lay&#9;FILE&#9;file:///var/www/larvel/ds_admin_panel/resources/views/admin/layout.blade.php&#10;we&#9;FILE&#9;file:///var/www/larvel/ds_admin_panel/resources/views/welcome.blade.php&#10;public&#9;null&#9;null&#10;text.&#9;FILE&#9;file:///var/www/larvel/ds_admin_panel/vendor/dick/crud/src/resources/views/fields/text.blade.php&#10;form_content&#9;FILE&#9;file:///var/www/larvel/ds_admin_panel/vendor/dick/crud/src/resources/views/form_content.blade.php&#10;edit.&#9;FILE&#9;file:///var/www/larvel/ds_admin_panel/vendor/dick/crud/src/resources/views/edit.blade.php&#10;vendor/dick/crud/edit&#9;FILE&#9;file:///var/www/larvel/ds_admin_panel/vendor/dick/crud/src/resources/views/edit.blade.php&#10;app.c&#9;FILE&#9;file:///var/www/larvel/ds_admin_panel/public/css/app.css&#10;favico&#9;FILE&#9;file:///var/www/larvel/dick/public/favicon.ico&#10;list.bla&#9;FILE&#9;file:///var/www/larvel/dick/resources/views/admin/list.blade.php&#10;route&#9;FILE&#9;file:///var/www/larvel/dick/app/Http/routes.php&#10;crudcontroller&#9;FILE&#9;file:///var/www/larvel/dick/vendor/dick/crud/src/Http/Controllers/CrudController.php&#10;admincontr&#9;FILE&#9;file:///var/www/larvel/dick/app/Http/Controllers/Admin/AdminController.php&#10;AuthenticatesAndRegistersUsers&#9;FILE&#9;file:///var/www/larvel/dick/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php&#10;usercontr&#9;FILE&#9;file:///var/www/larvel/dick/app/Http/Controllers/Auth/UserController.php&#10;routes&#9;FILE&#9;file:///var/www/larvel/dick/app/Http/routes.php&#10;AuthController&#9;FILE&#9;file:///var/www/larvel/dick/app/Http/Controllers/Auth/AuthController.php&#10;AuthController.php&#9;FILE&#9;file:///var/www/larvel/dick/app/Http/Controllers/Auth/AuthController.php&#10;User.php&#9;FILE&#9;file:///var/www/larvel/dick/app/User.php&#10;rou&#9;FILE&#9;file:///var/www/larvel/dick/app/Http/routes.php&#10;order.php&#9;FILE&#9;file:///var/www/larvel/dick/app/Order.php&#10;email.php&#9;FILE&#9;file:///var/www/larvel/dick/vendor/dick/crud/src/resources/views/fields/email.blade.php&#10;Article&#9;null&#9;null&#10;artic&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="crud&#9;FILE&#9;file:///var/www/larvel/ds_admin_panel/vendor/dsadmin/crud/src/Http/Controllers/CrudController.php&#10;rout&#9;FILE&#9;file:///var/www/larvel/ds_admin_panel/app/Http/routes.php&#10;read&#9;FILE&#9;file:///var/www/larvel/ds_admin_panel/readme.md&#10;routes&#9;FILE&#9;file:///var/www/larvel/ds_admin_panel/app/Http/routes.php&#10;.htacc&#9;FILE&#9;file:///var/www/larvel/ds_admin_panel/public/.htaccess" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/admin" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/Http/Requests" />
-      <recent name="$PROJECT_DIR$/resources/views/admin" />
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/resources/views" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
-  </component>
-  <component name="RunManager" selected="PHPUnit.phpunit.xml">
-    <configuration default="false" name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
-      <method />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -413,11 +702,6 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -426,14 +710,6 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="PHPUnit.phpunit.xml" />
-    </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="PHPUnit.phpunit.xml" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -441,27 +717,27 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7a07b3e3-07de-4b69-abfd-297a84904852" name="Default" comment="" />
-      <created>1464778387066</created>
+      <changelist id="f3887faf-fcc4-4729-af39-4dc75a414d14" name="Default" comment="" />
+      <created>1466494268803</created>
       <option name="number" value="Default" />
-      <updated>1464778387066</updated>
+      <updated>1466494268803</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2490392" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31791046" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40597016" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24626866" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -472,98 +748,125 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
-  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="1" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/OrderItem.php">
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/compile.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/ArticleTag.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6666667">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/dick/crud/src/resources/views/list.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="95" column="127" selection-start-line="95" selection-start-column="124" selection-end-line="95" selection-end-column="127" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/less/app.less">
+    <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6666665">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.0">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/elfinder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="31.37037">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/filesystems.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1724138">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php">
+    <entry file="file://$PROJECT_DIR$/config/compile.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
+    <entry file="file://$PROJECT_DIR$/public/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="9.296296">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="541" column="30" selection-start-line="541" selection-start-column="30" selection-end-line="541" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/PermissionCrudController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41272432">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.62068963">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/PageCrudController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.029363785">
+          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/RoleCrudController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.518518">
+          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.037037">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -571,292 +874,205 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-7.3333335">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Order.php">
+    <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-10.551724">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Category.php">
+    <entry file="file://$PROJECT_DIR$/vendor/dsadmin/crud/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-13.333333">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Article.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_05_13_082212_entrust_setup_tables.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-7.3703704">
+          <caret line="54" column="47" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Tag.php">
+    <entry file="file://$PROJECT_DIR$/vendor/zizaco/entrust/src/Entrust/Contracts/EntrustUserInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.333333">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state vertical-scroll-proportion="-3.5555556">
+          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zizaco/entrust/src/Entrust/Traits/EntrustUserTrait.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5555553">
+          <caret line="198" column="24" selection-start-line="198" selection-start-column="24" selection-end-line="198" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.851852">
+          <caret line="588" column="13" selection-start-line="588" selection-start-column="13" selection-end-line="588" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.0">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.6296296">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/UserCreateRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-4.965517">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding>
+            <element signature="e#7#392#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/TagCrudController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8181818">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/PageRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/Request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/RoleRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/StoreTagRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/UpdateTagRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/dick/crud/src/Http/Requests/CrudRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/UserUpdateRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryCrudController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6166395">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.535073">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/uploads/flags/en.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/uploads/flags/fr.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ArticleController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7324633">
-          <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/inc/top_menu.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="27" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/inc/main_sidebar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/dick/crud/src/Http/Controllers/CrudController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="51" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/dashboard.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/article.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/dick/crud/src/resources/views/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="55" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/dick/crud/src/resources/views/form_content.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/dick/crud/src/resources/views/fields/text.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6666665">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.333334">
-          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PublicController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.037037">
-          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.071429">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ArticleCrudController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.37037">
-          <caret line="193" column="0" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/list.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.785714">
+        <state vertical-scroll-proportion="-7.3333335">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../girish/ftow/app/View/Pages/home.ctp">
+    <entry file="file://$PROJECT_DIR$/app/Services/Registrar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.666667">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state vertical-scroll-proportion="-3.8214285">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../girish/ftow/app/View/Layouts/default.ctp">
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.0">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        <state vertical-scroll-proportion="-5.259259">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/dashboard.blade.php">
+    <entry file="file://$PROJECT_DIR$/vendor/dsadmin/crud/src/resources/views/form_content.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2170088">
-          <caret line="44" column="8" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="8" />
+        <state vertical-scroll-proportion="-9.259259">
+          <caret line="51" column="79" selection-start-line="51" selection-start-column="79" selection-end-line="51" selection-end-column="79" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/dsadmin/crud/src/resources/views/details_row.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/dsadmin/crud/src/resources/views/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5925926">
+          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.259259">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/dsadmin/crud/src/Http/Controllers/CrudController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6206896">
+          <caret line="436" column="20" selection-start-line="436" selection-start-column="20" selection-end-line="436" selection-end-column="20" />
+          <folding>
+            <element signature="e#48#70#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ArticleCrudController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23660715">
+          <caret line="180" column="28" selection-start-line="180" selection-start-column="28" selection-end-line="180" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Role.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.0">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="55.407406">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="e#44#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ArticleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3333333">
+          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3392856">
+          <caret line="38" column="76" selection-start-line="38" selection-start-column="67" selection-end-line="38" selection-end-column="76" />
+          <folding>
+            <element signature="e#22#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.857143">
+          <caret line="64" column="53" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+          <folding>
+            <element signature="e#44#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/UserCrudController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6443914">
+          <caret line="129" column="59" selection-start-line="129" selection-start-column="59" selection-end-line="129" selection-end-column="59" />
+          <folding>
+            <element signature="e#45#67#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

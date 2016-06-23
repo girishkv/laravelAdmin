@@ -4,7 +4,7 @@ return [
 
 	/*
 	|--------------------------------------------------------------------------
-	| Dick\PageManager template
+	| Dsadmin\PageManager template
 	|--------------------------------------------------------------------------
 	|
 	| All of these variables will be passed in the Controller to the $crud variable.
@@ -13,7 +13,7 @@ return [
 	|
 	*/
 
-	'template_name' => 'Contact',
+	'template_name' => 'Home page',
 
 	// -------------------------------------------------------------------------
 
@@ -55,22 +55,64 @@ return [
                         'placeholder' => 'Your content here'
                     ],
                     [
-                        'name' => 'address',
-                        'label' => "Address",
+                        'name' => 'service_1_title',
+                        'label' => "Service 1 title",
                         'type' => 'text',
                         'fake' => true,
                         'store_in' => 'extras'
                     ],
                     [
-                        'name' => 'email',
-                        'label' => "Email address",
-                        'type' => 'email',
+                        'name' => 'service_1_text',
+                        'label' => "Service 1 text",
+                        'type' => 'textarea',
                         'fake' => true,
                         'store_in' => 'extras'
                     ],
                     [
-                        'name' => 'phone',
-                        'label' => "Phone number",
+                        'name' => 'service_2_title',
+                        'label' => "Service 2 title",
+                        'type' => 'text',
+                        'fake' => true,
+                        'store_in' => 'extras'
+                    ],
+                    [
+                        'name' => 'service_2_text',
+                        'label' => "Service 2 text",
+                        'type' => 'textarea',
+                        'fake' => true,
+                        'store_in' => 'extras'
+                    ],
+                    [
+                        'name' => 'service_3_title',
+                        'label' => "Service 3 title",
+                        'type' => 'text',
+                        'fake' => true,
+                        'store_in' => 'extras'
+                    ],
+                    [
+                        'name' => 'service_3_text',
+                        'label' => "Service 3 text",
+                        'type' => 'textarea',
+                        'fake' => true,
+                        'store_in' => 'extras'
+                    ],
+                    [
+                        'name' => 'service_4_title',
+                        'label' => "Service 4 title",
+                        'type' => 'text',
+                        'fake' => true,
+                        'store_in' => 'extras'
+                    ],
+                    [
+                        'name' => 'service_4_text',
+                        'label' => "Service 4 text",
+                        'type' => 'textarea',
+                        'fake' => true,
+                        'store_in' => 'extras'
+                    ],
+                    [
+                        'name' => 'call_to_action',
+                        'label' => "Call to action",
                         'type' => 'text',
                         'fake' => true,
                         'store_in' => 'extras'
